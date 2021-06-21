@@ -13,12 +13,8 @@ import org.springframework.test.context.junit4.SpringRunner;
 @SpringBootTest
 class JenkinsGitApplicationTests {
 
-	public static Logger logger = LoggerFactory.getLogger(JenkinsGitApplicationTests.class);
-
 	@Test
 	void contextLoads() {
-		logger.info("Test case executing...");
-		assertEquals(true, true);
 	}
 
 }
